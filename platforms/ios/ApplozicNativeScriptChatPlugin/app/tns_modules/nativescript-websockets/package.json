@@ -1,0 +1,76 @@
+{
+  "_from": "nativescript-websockets",
+  "_id": "nativescript-websockets@1.3.3",
+  "_inBundle": false,
+  "_integrity": "sha1-/l0lOT8YxshTMwi7OeeHUr0bxJo=",
+  "_location": "/nativescript-websockets",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-websockets",
+    "name": "nativescript-websockets",
+    "escapedName": "nativescript-websockets",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-websockets/-/nativescript-websockets-1.3.3.tgz",
+  "_shasum": "fe5d25393f18c6c8533308bb39e78752bd1bc49a",
+  "_spec": "nativescript-websockets",
+  "_where": "/home/abhay/Documents/project/nativescript",
+  "author": {
+    "name": "Nathanael Anderson",
+    "email": "nathan@master-technology.com"
+  },
+  "bugs": {
+    "url": "https://github.com/nathanaela/nativescript-websockets/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Aleksey Gureiev",
+      "email": "spyromus@noizeramp.com",
+      "url": "https://github.com/alg"
+    },
+    {
+      "name": "Choi Won",
+      "email": "help@myso.kr",
+      "url": "https://github.com/myso-kr"
+    }
+  ],
+  "deprecated": false,
+  "description": "A WebSocket NativeScript module for Android",
+  "homepage": "https://github.com/nathanaela/nativescript-websockets",
+  "keywords": [
+    "NativeScript",
+    "WebSockets",
+    "Development",
+    "JavaScript",
+    "Android",
+    "iOS",
+    "Sockets",
+    "Websocket"
+  ],
+  "license": {
+    "type": "MIT & Apache 2.0",
+    "url": "https://github.com/nathanaela/nativescript-sqlite/blob/master/LICENSE"
+  },
+  "main": "websockets.js",
+  "name": "nativescript-websockets",
+  "nativescript": {
+    "platforms": {
+      "android": "1.4.0",
+      "ios": "1.4.0"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanaela/nativescript-websockets.git"
+  },
+  "version": "1.3.3"
+}

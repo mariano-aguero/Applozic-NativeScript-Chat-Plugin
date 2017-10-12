@@ -1,0 +1,37 @@
+<ActionBar title="Start New" class="action-bar"></ActionBar>
+<TabView #tabview>
+<GridLayout  *tabItem="{title: 'Contacts'}">
+  <ListView [items]="users" class="small-spacing">
+    <ng-template let-item="item">
+      <FlexboxLayout flexDirection="row">
+        <Image  height="5" width="20%" stretch="aspectFill" loadMode="async" [src]='profilePic[item.userId]'></Image>
+        <StackLayout width="80%" (tap)="chatOpen(item)">
+            <FlexboxLayout flexDirection="row">  
+                <Label [text]="dispName[item.userId]" class="medium-spacing"></Label>
+            </FlexboxLayout>
+            <FlexboxLayout flexDirection="row">
+                <Label text="{{(item.connected)?'Online':'last seen at'+timeSince(item.lastSeenAtTime)}}" class="medium-spacing" width="100%"></Label>
+            </FlexboxLayout>
+        </StackLayout>
+       </FlexboxLayout>
+    </ng-template>
+  </ListView>
+</GridLayout>
+ <StackLayout *tabItem="{title: 'Groups'}">
+    <ListView [items]="groupDetails" class="small-spacing">
+      <ng-template let-item="item">
+        <FlexboxLayout flexDirection="row">
+          <Image  height="5" width="20%" stretch="aspectFill" loadMode="async" [src]='(item.imageUrl)?item.imageUrl:"~/images/singleUser.jpg"'></Image>
+          <StackLayout width="80%" (tap)="chatOpen(item)">
+              <FlexboxLayout flexDirection="row">  
+                  <Label [text]="item.name" class="medium-spacing"></Label>
+              </FlexboxLayout>
+              <FlexboxLayout flexDirection="row">
+                  <Label text="" class="medium-spacing" width="100%"></Label>
+              </FlexboxLayout>
+          </StackLayout>
+        </FlexboxLayout>
+      </ng-template>
+    </ListView>
+  </StackLayout>
+</TabView>

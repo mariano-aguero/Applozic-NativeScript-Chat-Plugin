@@ -1,0 +1,20 @@
+<StackLayout>
+  <Label text="Add New Member" height="10%" class="action-bar pull-center" padding="10" fontSize="25%"></Label>
+  <ListView [items]="users" class="small-spacing">
+    <ng-template let-item="item">
+      <FlexboxLayout flexDirection="row">
+        <Image  height="5" width="20%" stretch="aspectFill" loadMode="async" [src]='profilePic[item.userId]'></Image>
+        <StackLayout width="80%" (tap)="close(item)">
+            <FlexboxLayout flexDirection="row">  
+                <Label [text]="dispName[item.userId]" class="medium-spacing"></Label>
+            </FlexboxLayout>
+            <FlexboxLayout flexDirection="row">
+                <Label text="" class="medium-spacing" width="100%"></Label>
+            </FlexboxLayout>
+        </StackLayout>
+       </FlexboxLayout>
+    </ng-template>
+  </ListView>
+</StackLayout>
+
+<!--{{(item.connected)?'Online':'last seen at'+timeSince(item.lastSeenAtTime)}}-->

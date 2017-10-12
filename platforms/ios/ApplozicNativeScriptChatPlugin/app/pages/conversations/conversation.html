@@ -1,0 +1,22 @@
+<ActionBar title="Conversations" class="action-bar">
+  <ActionItem (tap)="logOut()"
+      ios.position="right"
+      text="Logout" android.position="popup"></ActionItem>
+</ActionBar>
+<GridLayout>
+  <ListView [items]="convos" (loadMoreItems)="loadMoreItems()" class="small-spacing">
+    <ng-template let-item="item">
+      <FlexboxLayout flexDirection="row">
+        <Image  height="5" width="20%" stretch="aspectFill" loadMode="async" src='{{(item.groupId)?groupDetails[item.groupId].imageUrl:profilePic[item.to]}}'></Image>
+        <StackLayout width="80%" (tap)="chatOpen(item)">
+            <FlexboxLayout flexDirection="row">
+                <Label text="{{(item.groupId)?groupDetails[item.groupId].name:dispName[item.to]}}" class="medium-spacing" width="70%"></Label>
+                <Label [text]="timeSince(item.createdAtTime)" class="medium-spacing pull-right" width="30%"></Label>
+            </FlexboxLayout>
+            <FlexboxLayout><Label [text]="item.message" class="medium-spacing" width="100%"></Label></FlexboxLayout>
+        </StackLayout>
+       </FlexboxLayout>
+    </ng-template>
+  </ListView>
+  <FAB (tap)="fabTap()" icon="res://start_new" rippleColor="green" class="fab-button"></FAB>
+</GridLayout>

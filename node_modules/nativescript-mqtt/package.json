@@ -1,0 +1,52 @@
+{
+  "_from": "nativescript-mqtt",
+  "_id": "nativescript-mqtt@0.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-DzOtzZ2fcpzpvC8C4hn3dCatweI=",
+  "_location": "/nativescript-mqtt",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-mqtt",
+    "name": "nativescript-mqtt",
+    "escapedName": "nativescript-mqtt",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-mqtt/-/nativescript-mqtt-0.0.1.tgz",
+  "_shasum": "0f33adcd9d9f729ce9bc2f02e219f77426adc1e2",
+  "_spec": "nativescript-mqtt",
+  "_where": "/home/abhay/Documents/project/Applozic-Chat-Plugins/nativescript",
+  "bugs": {
+    "url": "https://github.com/krislankford/nativescript-mqtt/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A {N} MQTT WebSocket plugin for iOS and Android",
+  "devDependencies": {},
+  "homepage": "https://github.com/krislankford/nativescript-mqtt#readme",
+  "main": "index.js",
+  "name": "nativescript-mqtt",
+  "nativescript": {
+    "platforms": {
+      "android": "2.0.0",
+      "ios": "2.0.0"
+    }
+  },
+  "optionalDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krislankford/nativescript-mqtt.git"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "version": "0.0.1"
+}

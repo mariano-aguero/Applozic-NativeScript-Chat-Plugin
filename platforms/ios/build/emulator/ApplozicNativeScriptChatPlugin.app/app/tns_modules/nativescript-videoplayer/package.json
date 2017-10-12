@@ -1,0 +1,118 @@
+{
+  "_from": "nativescript-videoplayer",
+  "_id": "nativescript-videoplayer@3.0.9",
+  "_inBundle": false,
+  "_integrity": "sha1-Cvu0f/FFMx925WR69megBhWqt0s=",
+  "_location": "/nativescript-videoplayer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-videoplayer",
+    "name": "nativescript-videoplayer",
+    "escapedName": "nativescript-videoplayer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-videoplayer/-/nativescript-videoplayer-3.0.9.tgz",
+  "_shasum": "0afbb47ff145331f76e5647af667a00615aab74b",
+  "_spec": "nativescript-videoplayer",
+  "_where": "/home/abhay/Documents/project/Applozic-Chat-Plugins/nativescript",
+  "author": {
+    "name": "Brad Martin",
+    "email": "bradwaynemartin@gmail.com",
+    "url": "https://github.com/bradmartin"
+  },
+  "bugs": {
+    "url": "https://github.com/bradmartin/nativescript-videoplayer/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Nathanael Anderson",
+      "email": "nathan@master-technology",
+      "url": "https://github.com/nathanaela"
+    },
+    {
+      "name": "Alexander Ziskind",
+      "email": "alex@nuvious.com",
+      "url": "https://github.com/alexziskind1"
+    },
+    {
+      "name": "Blake Nussey",
+      "email": "blake@stageme.com",
+      "url": "https://github.com/bnussey"
+    },
+    {
+      "name": "Juan Manuel Campos Olvera",
+      "email": "juan4106@hotmail.com",
+      "url": "https://github.com/juanmcampos"
+    },
+    {
+      "name": "Ivo Georgiev",
+      "email": "ivo@strem.io",
+      "url": "https://github.com/Ivshti"
+    }
+  ],
+  "deprecated": false,
+  "description": "A NativeScript plugin that uses the native video players to play local and remote videos.",
+  "devDependencies": {
+    "husky": "^0.13.4",
+    "lint-staged": "^3.6.1",
+    "prettier": "^1.4.4",
+    "tns-core-modules": "^3.0.0",
+    "tns-platform-declarations": "3.0.1",
+    "typescript": "^2.2.2"
+  },
+  "gitHead": "7a5addbe9192a7708fbaac9db42e33f2a156fea6",
+  "homepage": "https://github.com/bradmartin/nativescript-videoplayer",
+  "keywords": [
+    "NativeScript",
+    "Android",
+    "iOS",
+    "TypeScript",
+    "video",
+    "video player",
+    "movie",
+    "bradmartin",
+    "nStudio"
+  ],
+  "license": "Apache-2.0",
+  "lint-staged": {
+    "*.ts": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "main": "videoplayer",
+  "name": "nativescript-videoplayer",
+  "nativescript": {
+    "platforms": {
+      "android": "3.0.0",
+      "ios": "3.0.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "category": "Interface"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradmartin/nativescript-videoplayer.git"
+  },
+  "scripts": {
+    "precommit": "lint-staged"
+  },
+  "typings": "videoplayer.d.ts",
+  "version": "3.0.9"
+}
