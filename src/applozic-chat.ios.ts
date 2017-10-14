@@ -18,8 +18,9 @@ export class ApplozicChat extends Common {
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(user.applicationId);
         var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
         var that = this;
+        
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function(response, error) {
-            console.log(response);
+            console.log("response: " + response);
             console.log(error);
             that.launchChat();
         });
@@ -29,6 +30,17 @@ export class ApplozicChat extends Common {
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
         var alPushAssist = ALPushAssist.alloc().init();
         alChatLauncher.launchChatListAndViewControllerObject("Conversations", alPushAssist.topViewController);
+    }
+
+    public launchChatWithUserId(userId: any) {        
+        var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
+        var alPushAssist = ALPushAssist.alloc().init();
+
+        alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);       
+    }
+        
+    public launchChatWithGroupId(groupId: number) {
+                
     }
 
 }

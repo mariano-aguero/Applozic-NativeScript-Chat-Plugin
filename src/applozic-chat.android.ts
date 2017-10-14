@@ -8,4 +8,12 @@ export class ApplozicChat extends Common {
     public launchChat() {
         
     }
+
+    public launchChatWithUserId(userId: any) {
+
+    }
+
+    public launchChatWithGroupId(groupId: number) {
+        
+    }
 }

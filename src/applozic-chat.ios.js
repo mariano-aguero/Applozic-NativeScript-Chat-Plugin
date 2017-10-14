@@ -16,7 +16,7 @@ var ApplozicChat = (function (_super) {
         var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
         var that = this;
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function (response, error) {
-            console.log(response);
+            console.log("response: " + response);
             console.log(error);
             that.launchChat();
         });
@@ -25,6 +25,13 @@ var ApplozicChat = (function (_super) {
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());
         var alPushAssist = ALPushAssist.alloc().init();
         alChatLauncher.launchChatListAndViewControllerObject("Conversations", alPushAssist.topViewController);
+    };
+    ApplozicChat.prototype.launchChatWithUserId = function (userId) {
+        var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());
+        var alPushAssist = ALPushAssist.alloc().init();
+        alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);
+    };
+    ApplozicChat.prototype.launchChatWithGroupId = function (groupId) {
     };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));

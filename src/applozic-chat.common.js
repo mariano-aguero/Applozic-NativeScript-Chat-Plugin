@@ -14,6 +14,10 @@ var Common = (function (_super) {
     };
     Common.prototype.launchChat = function () {
     };
+    Common.prototype.launchChatWithUserId = function (userId) {
+    };
+    Common.prototype.launchChatWithGroupId = function (groupId) {
+    };
     return Common;
 }(observable_1.Observable));
 exports.Common = Common;

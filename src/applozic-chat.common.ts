@@ -17,6 +17,15 @@ export class Common extends Observable {
   public launchChat() {
 
   }
+
+  public launchChatWithUserId(userId: any) {
+
+  }
+
+  public launchChatWithGroupId(groupId: number) {
+    
+  }
+
 }
 
 export class Utils {

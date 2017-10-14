@@ -18,6 +18,7 @@ export class HelloWorldModel extends Observable {
         'applicationId' : 'applozic-sample-app',  //replace "applozic-sample-app" with Application Key from Applozic Dashboard
         'deviceApnsType' : 0    //Set 0 for Development and 1 for Distribution (Release)
     }
-    this.applozicChat.login(alUser);
+    //this.applozicChat.login(alUser);
+    this.applozicChat.launchChatWithUserId("debug4");
   }
 }

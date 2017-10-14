@@ -10,6 +10,10 @@ var ApplozicChat = (function (_super) {
     };
     ApplozicChat.prototype.launchChat = function () {
     };
+    ApplozicChat.prototype.launchChatWithUserId = function (userId) {
+    };
+    ApplozicChat.prototype.launchChatWithGroupId = function (groupId) {
+    };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));
 exports.ApplozicChat = ApplozicChat;
