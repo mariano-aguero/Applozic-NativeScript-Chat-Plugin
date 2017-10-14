@@ -1,4 +1,0 @@
-
-android {
-    flavorDimensions "nativescriptimagecache", "nativescriptwebsockets", "nativescriptfloatingactionbutton", "tnscoremoduleswidgets", "nativescriptmapbox"
-}
