@@ -6,7 +6,7 @@ var ApplozicChat = (function (_super) {
     function ApplozicChat() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    ApplozicChat.prototype.login = function (user) {
+    ApplozicChat.prototype.login = function (user, successCallback, errorCallback) {
         var alUser = ALUser.alloc().init();
         alUser.userId = user.userId;
         alUser.applicationId = user.applicationId;
@@ -16,9 +16,9 @@ var ApplozicChat = (function (_super) {
         var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
         var that = this;
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function (response, error) {
-            console.log("response: " + response);
+            console.log("### login response: " + response);
             console.log(error);
-            that.launchChat();
+            successCallback(response);
         });
     };
     ApplozicChat.prototype.launchChat = function () {

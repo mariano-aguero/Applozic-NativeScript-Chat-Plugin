@@ -10,7 +10,7 @@ export class Common extends Observable {
     this.message = Utils.SUCCESS_MSG();
   }
 
-  public login(alUser: any) {
+  public login(alUser: any, successCallback: any, errorCallback: any) {
     
   }
 

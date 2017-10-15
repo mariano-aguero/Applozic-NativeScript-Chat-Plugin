@@ -10,7 +10,7 @@ var Common = (function (_super) {
         _this.message = Utils.SUCCESS_MSG();
         return _this;
     }
-    Common.prototype.login = function (alUser) {
+    Common.prototype.login = function (alUser, successCallback, errorCallback) {
     };
     Common.prototype.launchChat = function () {
     };

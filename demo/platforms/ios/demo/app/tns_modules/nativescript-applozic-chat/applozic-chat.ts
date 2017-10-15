@@ -8,7 +8,7 @@ declare var ALUserDefaultsHandler: any;
 
 export class ApplozicChat extends Common {
 
-    public login(user: any) {
+    public login(user: any, successCallback: any, errorCallback: any) {
         var alUser = ALUser.alloc().init();
         alUser.userId = user.userId;
         alUser.applicationId = user.applicationId;
@@ -20,10 +20,9 @@ export class ApplozicChat extends Common {
         var that = this;
         
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function(response, error) {
-            console.log("response: " + response);
+            console.log("### login response: " + response);
             console.log(error);
-            that.launchChat();
-            //that.launchChatWithUserId("debug2");
+            successCallback(response);
         });
     }
 

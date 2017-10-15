@@ -6,7 +6,7 @@ var ApplozicChat = (function (_super) {
     function ApplozicChat() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    ApplozicChat.prototype.login = function (alUser) {
+    ApplozicChat.prototype.login = function (alUser, successCallback, errorCallback) {
     };
     ApplozicChat.prototype.launchChat = function () {
     };
