@@ -6,9 +6,9 @@ Environment  LANG=en_US.US-ASCII PATH=/Applications/Xcode\ 2.app/Contents/Develo
 BuilderIdent ProcessPCH\ /Users/devashish/Documents/Github/Applozic-NativeScript-Chat-Plugin/demo/platforms/ios/build/sharedpch/demo-Prefix-dguidzoukrdcxgbmvuqchgekqpsm/demo-Prefix.pch.pch\ demo/demo-Prefix.pch\ normal\ i386\ objective-c\ com.apple.compilers.llvm.clang.1_0.compiler
 InputFile    /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/SDKSettings.plist 0 1480627873 1868 33204
 InputFile    /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/CoreServices/SystemVersion.plist 0 1480571274 414 33060
-InputFile    /Users/devashish/Documents/Github/Applozic-NativeScript-Chat-Plugin/demo/platforms/ios/demo/demo-Prefix.pch 0 1507888370 236 33188
+InputFile    /Users/devashish/Documents/Github/Applozic-NativeScript-Chat-Plugin/demo/platforms/ios/demo/demo-Prefix.pch 0 1508079401 236 33188
 InputFile    /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/SDKSettings.plist 0 1480627873 1868 33204
-InputFile    /Users/devashish/Documents/Github/Applozic-NativeScript-Chat-Plugin/demo/platforms/ios/demo/demo-Prefix.pch 0 1507888370 236 33188
+InputFile    /Users/devashish/Documents/Github/Applozic-NativeScript-Chat-Plugin/demo/platforms/ios/demo/demo-Prefix.pch 0 1508079401 236 33188
 InputFile    /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/Availability.h 0 1477084411 16062 33188
 InputFile    /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/usr/include/AvailabilityInternal.h 0 1477084085 2392756 33188
 InputFile    /Applications/Xcode\ 2.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h 0 1474672216 6943 33188

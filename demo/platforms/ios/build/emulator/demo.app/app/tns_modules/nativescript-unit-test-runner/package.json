@@ -1,27 +1,32 @@
 {
-  "_from": "nativescript-unit-test-runner@^0.3.4",
+  "_args": [
+    [
+      "nativescript-unit-test-runner@0.3.4",
+      "/Users/devashish/Documents/Github/nativescript-applozic-chat/demo"
+    ]
+  ],
+  "_from": "nativescript-unit-test-runner@0.3.4",
   "_id": "nativescript-unit-test-runner@0.3.4",
   "_inBundle": false,
   "_integrity": "sha1-9t5SPUcyNlWcoOQgLRLVIXmNaBE=",
   "_location": "/nativescript-unit-test-runner",
   "_phantomChildren": {},
   "_requested": {
-    "type": "range",
+    "type": "version",
     "registry": true,
-    "raw": "nativescript-unit-test-runner@^0.3.4",
+    "raw": "nativescript-unit-test-runner@0.3.4",
     "name": "nativescript-unit-test-runner",
     "escapedName": "nativescript-unit-test-runner",
-    "rawSpec": "^0.3.4",
+    "rawSpec": "0.3.4",
     "saveSpec": null,
-    "fetchSpec": "^0.3.4"
+    "fetchSpec": "0.3.4"
   },
   "_requiredBy": [
     "/"
   ],
   "_resolved": "https://registry.npmjs.org/nativescript-unit-test-runner/-/nativescript-unit-test-runner-0.3.4.tgz",
-  "_shasum": "f6de523d473236559ca0e4202d12d521798d6811",
-  "_spec": "nativescript-unit-test-runner@^0.3.4",
-  "_where": "/Users/devashish/Documents/Github/applozic-chat/demo",
+  "_spec": "0.3.4",
+  "_where": "/Users/devashish/Documents/Github/nativescript-applozic-chat/demo",
   "author": {
     "name": "Telerik",
     "email": "support@telerik.com"
@@ -29,8 +34,6 @@
   "bugs": {
     "url": "https://github.com/NativeScript/nativescript-unit-test-runner/issues"
   },
-  "bundleDependencies": false,
-  "deprecated": false,
   "description": "NativeScript unit test runner component.",
   "devDependencies": {
     "grunt": "^0.4.5",

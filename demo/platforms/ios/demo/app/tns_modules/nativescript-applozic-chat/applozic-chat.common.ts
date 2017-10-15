@@ -25,7 +25,6 @@ export class Common extends Observable {
   public launchChatWithGroupId(groupId: number) {
     
   }
-
 }
 
 export class Utils {

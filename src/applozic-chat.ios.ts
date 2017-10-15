@@ -6,7 +6,7 @@ declare var ALRegisterUserClientService: any;
 declare var ALPushAssist: any;
 declare var ALUserDefaultsHandler: any;
 
-export class ApplozicChat extends Common {    
+export class ApplozicChat extends Common {
 
     public login(user: any) {
         var alUser = ALUser.alloc().init();
@@ -42,5 +42,4 @@ export class ApplozicChat extends Common {
     public launchChatWithGroupId(groupId: number) {
                 
     }
-
 }
