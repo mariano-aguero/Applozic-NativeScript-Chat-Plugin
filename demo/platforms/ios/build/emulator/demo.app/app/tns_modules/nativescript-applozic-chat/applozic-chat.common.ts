@@ -10,7 +10,7 @@ export class Common extends Observable {
     this.message = Utils.SUCCESS_MSG();
   }
 
-  public login(alUser: any) {
+  public login(alUser: any, successCallback: any, errorCallback: any) {
     
   }
 
@@ -25,6 +25,12 @@ export class Common extends Observable {
   public launchChatWithGroupId(groupId: number) {
     
   }
+
+
+  public logout(successCallback: any, errorCallback: any) {
+    
+  }
+
 }
 
 export class Utils {

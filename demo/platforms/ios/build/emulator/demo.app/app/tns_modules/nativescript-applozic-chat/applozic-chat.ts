@@ -8,7 +8,7 @@ declare var ALUserDefaultsHandler: any;
 
 export class ApplozicChat extends Common {
 
-    public login(user: any) {
+    public login(user: any, successCallback: any, errorCallback: any) {
         var alUser = ALUser.alloc().init();
         alUser.userId = user.userId;
         alUser.applicationId = user.applicationId;
@@ -20,10 +20,8 @@ export class ApplozicChat extends Common {
         var that = this;
         
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function(response, error) {
-            console.log("response: " + response);
-            console.log(error);
-            that.launchChat();
-            //that.launchChatWithUserId("debug2");
+            //Todo: add check for error and call errorCallback in case of error
+            successCallback(response);
         });
     }
 
@@ -36,11 +34,25 @@ export class ApplozicChat extends Common {
     public launchChatWithUserId(userId: any) {        
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
         var alPushAssist = ALPushAssist.alloc().init();
-
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);       
     }
         
     public launchChatWithGroupId(groupId: number) {
-                
+        var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
+        var alPushAssist = ALPushAssist.alloc().init();
+        alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(null, groupId, null, alPushAssist.topViewController, null);               
+    }
+
+    public logout(successCallback: any, errorCallback: any) {
+        var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
+        alRegisterUserClientService.logoutWithCompletionHandler(function(response, error) {
+            if (!error && response.status === "success") {
+                console.log("Logout successful");
+                successCallback(response);
+            } else {
+                console.log("Logout failed: " + response.response);
+                successCallback(error);
+            }
+        });
     }
 }

@@ -6,7 +6,7 @@ var ApplozicChat = (function (_super) {
     function ApplozicChat() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    ApplozicChat.prototype.login = function (user) {
+    ApplozicChat.prototype.login = function (user, successCallback, errorCallback) {
         var alUser = ALUser.alloc().init();
         alUser.userId = user.userId;
         alUser.applicationId = user.applicationId;
@@ -16,9 +16,7 @@ var ApplozicChat = (function (_super) {
         var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
         var that = this;
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function (response, error) {
-            console.log("response: " + response);
-            console.log(error);
-            that.launchChat();
+            successCallback(response);
         });
     };
     ApplozicChat.prototype.launchChat = function () {
@@ -32,6 +30,22 @@ var ApplozicChat = (function (_super) {
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);
     };
     ApplozicChat.prototype.launchChatWithGroupId = function (groupId) {
+        var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());
+        var alPushAssist = ALPushAssist.alloc().init();
+        alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(null, groupId, null, alPushAssist.topViewController, null);
+    };
+    ApplozicChat.prototype.logout = function (successCallback, errorCallback) {
+        var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
+        alRegisterUserClientService.logoutWithCompletionHandler(function (response, error) {
+            if (!error && response.status === "success") {
+                console.log("Logout successful");
+                successCallback(response);
+            }
+            else {
+                console.log("Logout failed: " + response.response);
+                successCallback(error);
+            }
+        });
     };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));

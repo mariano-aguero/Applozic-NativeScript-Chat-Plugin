@@ -86,7 +86,7 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		IPBaWNzhciBQzLHmJl6WnailL2w=
+		V+xHVSmwtXzGFo9xloITrO0w5us=
 		</data>
 		<key>Frameworks/Applozic.framework/AppLozic.momd/AppLozic 2.mom</key>
 		<data>
@@ -537,7 +537,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		uOM2lyusgwlC1mSn42AwQjxNsjk=
+		Fx2P/1scqBzKNgM8Xwm8Z0Rqh4w=
 		</data>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -545,7 +545,7 @@
 		</data>
 		<key>LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		Xup3Q/YRa0GafiFzGgB6zc9UT+Y=
+		WA4GiT+BYSFHQq8sH03ItdwP7/g=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -585,11 +585,11 @@
 		</data>
 		<key>app/main-view-model.js</key>
 		<data>
-		2nDzQvfqReKxyyCEWMjftK+RuK8=
+		W9SfhhEVWJNM772ktZZfyoJ2dQ8=
 		</data>
 		<key>app/main-view-model.ts</key>
 		<data>
-		pd08xTewnzcq5xNNgSR3tzPCejM=
+		BYpZkU4JAB5hWIKdyVozTgX8Kqc=
 		</data>
 		<key>app/package.json</key>
 		<data>
@@ -605,35 +605,35 @@
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.d.ts</key>
 		<data>
-		UveUrgwtkMVKNXVsc5wlWCz6a7E=
+		PqDjZENF4a+EzqeyoKknyM/KetM=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.js</key>
 		<data>
-		bOd8ByXMTpcD2t28vdT1bOht/Yw=
+		qKP6SmyICfCWx4MplGBS9c7sxBY=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.js.map</key>
 		<data>
-		U0yuq9n1CRd1yIrWXhOOhjw4Y4o=
+		+Fh9wZ3k+3wqgMGItR34xF4ldS0=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.ts</key>
 		<data>
-		zU+pnLY1s+r8bwtn3cnvj4YT7kw=
+		TKR1BhpM9PrVapqagARbvq1C+4Q=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.d.ts</key>
 		<data>
-		myjeJNbaguUe51nQLUBS3gVIS1w=
+		yoGVsFzJIxPVplC6XF/dY8CUWvk=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.js</key>
 		<data>
-		rV3HX6XmG72QXY3JnSZX2KPKGSk=
+		LgnlhLL1QR+voy5CDy0/VnD+Csk=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.js.map</key>
 		<data>
-		aw1+hgfgLjJK6AXcQ4ReB81WZVg=
+		sw02v6eBBjwZrrmUX1fmecICkCs=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.ts</key>
 		<data>
-		renYwQHe4ur2t0MdYKGGDjo7Nk4=
+		Fyo/qQAT/3yWD2SO9GgRvB7XD9Y=
 		</data>
 		<key>app/tns_modules/nativescript-applozic-chat/index.d.ts</key>
 		<data>
@@ -2395,11 +2395,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			IPBaWNzhciBQzLHmJl6WnailL2w=
+			V+xHVSmwtXzGFo9xloITrO0w5us=
 			</data>
 			<key>hash2</key>
 			<data>
-			Q4Q2MvnGnyAU5ei4Xp2CDbMSxSQy7hXJmmmqaVf75Sk=
+			GHG/03jXEMT2GxaFsgMOU78Tkw/MWjc0Qi80NBVHzgE=
 			</data>
 		</dict>
 		<key>Frameworks/Applozic.framework/AppLozic.momd/AppLozic 2.mom</key>
@@ -3260,11 +3260,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uOM2lyusgwlC1mSn42AwQjxNsjk=
+			Fx2P/1scqBzKNgM8Xwm8Z0Rqh4w=
 			</data>
 			<key>hash2</key>
 			<data>
-			wGWfU/3Or5n+nGCLMDLDdFrqx2vdMSwFETbgkRMJbjE=
+			XWVC05oYS5SyVpHazKzaJE9KwZgl82CJlZwVmeuozig=
 			</data>
 		</dict>
 		<key>LaunchScreen.storyboardc/Info.plist</key>
@@ -3282,11 +3282,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Xup3Q/YRa0GafiFzGgB6zc9UT+Y=
+			WA4GiT+BYSFHQq8sH03ItdwP7/g=
 			</data>
 			<key>hash2</key>
 			<data>
-			9WH3uApxeVydeVH0pX4lTo61UUpHdT++sAP+Dc+fNgE=
+			UKTgKpCE6MXsc6x5WMJBSRgie5FAWuYavbOo6WCRtvo=
 			</data>
 		</dict>
 		<key>app/app.css</key>
@@ -3381,22 +3381,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2nDzQvfqReKxyyCEWMjftK+RuK8=
+			W9SfhhEVWJNM772ktZZfyoJ2dQ8=
 			</data>
 			<key>hash2</key>
 			<data>
-			yWPIo0GDbEY/ayk2lfkZfnOKr28eqVLICqqEjMSt0vQ=
+			ACIgq0ItJc/4fRKzXEYELMzpYX41Ow4hpn1JBcE9LK8=
 			</data>
 		</dict>
 		<key>app/main-view-model.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			pd08xTewnzcq5xNNgSR3tzPCejM=
+			BYpZkU4JAB5hWIKdyVozTgX8Kqc=
 			</data>
 			<key>hash2</key>
 			<data>
-			FkOVYr/8TaJFfsO/eHAWPidadTHK+A4ZCSI2y76ZoeQ=
+			95PX9OsLK2RTyOah3NzzJcpPYClHW8NmEni2pU7+kes=
 			</data>
 		</dict>
 		<key>app/package.json</key>
@@ -3436,88 +3436,88 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			UveUrgwtkMVKNXVsc5wlWCz6a7E=
+			PqDjZENF4a+EzqeyoKknyM/KetM=
 			</data>
 			<key>hash2</key>
 			<data>
-			vx+Ubkot99q90JsUfmnSZY8fWQtlJ2F6OYSeJtmTUek=
+			SARiVKw22cCFgR5GFrSHWNmenwgREIbzNvzRyrpFNRI=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			bOd8ByXMTpcD2t28vdT1bOht/Yw=
+			qKP6SmyICfCWx4MplGBS9c7sxBY=
 			</data>
 			<key>hash2</key>
 			<data>
-			2iAmj6RaER/Eok9BVXBQB8LBEnhwk9Uk6jc+vwXbuC8=
+			xPllDbuWAFt7H1/uytI1H96XU7z2nnMRICdBaXb5pHs=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			U0yuq9n1CRd1yIrWXhOOhjw4Y4o=
+			+Fh9wZ3k+3wqgMGItR34xF4ldS0=
 			</data>
 			<key>hash2</key>
 			<data>
-			H2TaN+F8D51o25MKdEPcGRPWJwSdan2U3h2EMtMyibE=
+			rAxUdznMb8dfwaOgA1bOCr/o7kwbo5CzYJqcaag88/0=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.common.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			zU+pnLY1s+r8bwtn3cnvj4YT7kw=
+			TKR1BhpM9PrVapqagARbvq1C+4Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			z87u51abqp5GiCKH1aW4DlXbv38kwK/2sohsbOpbRJs=
+			WqAsm743TQtlX6L0MZiXT31KzKlkK3gP/Tpm2eSWpg4=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.d.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			myjeJNbaguUe51nQLUBS3gVIS1w=
+			yoGVsFzJIxPVplC6XF/dY8CUWvk=
 			</data>
 			<key>hash2</key>
 			<data>
-			C1hsY80r9rejb6tqWrva2LXq6ajCFIXbgTd5hefXI68=
+			qv5w4CoRFDHqmMZRJVn3YjSaMMepT/rMpzwwAdvYh70=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.js</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rV3HX6XmG72QXY3JnSZX2KPKGSk=
+			LgnlhLL1QR+voy5CDy0/VnD+Csk=
 			</data>
 			<key>hash2</key>
 			<data>
-			5c4fRg7jRnOMAHfqTrUTaC+pLnjTYaZPxkFnDceVIdI=
+			VkINsqU2u1I3x0t1BGCI3UsdpeFQYu3nDggR8djBK6k=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			aw1+hgfgLjJK6AXcQ4ReB81WZVg=
+			sw02v6eBBjwZrrmUX1fmecICkCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			aQyManoApyzCil+uprlvMZ1/4GBLReVo9kXYGBGJg1w=
+			Et7Y0MNxOqv1SQKn9bTuh44wG+AUoqIDsBoxfmwYEAI=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/applozic-chat.ts</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			renYwQHe4ur2t0MdYKGGDjo7Nk4=
+			Fyo/qQAT/3yWD2SO9GgRvB7XD9Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			4S3EMbBULpEofpLOAGYRpYWktMjJm8zueEdkidUmpaw=
+			nHmPHkgSJacDbOEdRHThFVQisVCRdsuzQNV9yCE9RX0=
 			</data>
 		</dict>
 		<key>app/tns_modules/nativescript-applozic-chat/index.d.ts</key>
