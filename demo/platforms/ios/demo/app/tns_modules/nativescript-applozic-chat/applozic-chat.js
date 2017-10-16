@@ -16,8 +16,6 @@ var ApplozicChat = (function (_super) {
         var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
         var that = this;
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function (response, error) {
-            console.log("### login response: " + response);
-            console.log(error);
             successCallback(response);
         });
     };
@@ -32,6 +30,19 @@ var ApplozicChat = (function (_super) {
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);
     };
     ApplozicChat.prototype.launchChatWithGroupId = function (groupId) {
+    };
+    ApplozicChat.prototype.logout = function (successCallback, errorCallback) {
+        var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
+        alRegisterUserClientService.logoutWithCompletionHandler(function (response, error) {
+            if (!error && response.status === "success") {
+                console.log("Logout successful");
+                successCallback(response);
+            }
+            else {
+                console.log("Logout failed: " + response.response);
+                successCallback(error);
+            }
+        });
     };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));

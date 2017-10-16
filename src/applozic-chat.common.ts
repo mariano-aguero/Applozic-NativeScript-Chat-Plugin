@@ -25,6 +25,12 @@ export class Common extends Observable {
   public launchChatWithGroupId(groupId: number) {
     
   }
+
+
+  public logout(successCallback: any, errorCallback: any) {
+    
+  }
+
 }
 
 export class Utils {

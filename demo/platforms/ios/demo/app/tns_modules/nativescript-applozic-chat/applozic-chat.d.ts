@@ -4,4 +4,5 @@ export declare class ApplozicChat extends Common {
     launchChat(): void;
     launchChatWithUserId(userId: any): void;
     launchChatWithGroupId(groupId: number): void;
+    logout(successCallback: any, errorCallback: any): void;
 }

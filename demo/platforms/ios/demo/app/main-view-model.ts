@@ -21,20 +21,19 @@ export class HelloWorldModel extends Observable {
     }
 
     var that = this;
+
+    /*this.applozicChat.logout(function(response) {
+      console.log("logout success: " + response);
+    }, function(error) {
+      console.log("logout error: "+ error);
+    });*/
     
     this.applozicChat.login(alUser, function(response) {
-        console.log("###onLoginSuccess.response: " + response);
+        console.log("onLoginSuccess: " + response);
         that.applozicChat.launchChat();
       }, function(error) {
-        console.log("###error callback");
-        console.log(error);
+        console.log("onLoginFailure: " + error);
       });
-
-    /*
-    this.onLoginSuccess = function() {
-      console.log("###onLoginSuccess.response: ");
-      that.applozicChat.launchChat();
-    } */
   }
 
 }

@@ -20,8 +20,7 @@ export class ApplozicChat extends Common {
         var that = this;
         
         alRegisterUserClientService.initWithCompletionWithCompletion(alUser, function(response, error) {
-            console.log("### login response: " + response);
-            console.log(error);
+            //Todo: add check for error and call errorCallback in case of error
             successCallback(response);
         });
     }
@@ -41,5 +40,18 @@ export class ApplozicChat extends Common {
         
     public launchChatWithGroupId(groupId: number) {
                 
+    }
+
+    public logout(successCallback: any, errorCallback: any) {
+        var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
+        alRegisterUserClientService.logoutWithCompletionHandler(function(response, error) {
+            if (!error && response.status === "success") {
+                console.log("Logout successful");
+                successCallback(response);
+            } else {
+                console.log("Logout failed: " + response.response);
+                successCallback(error);
+            }
+        });
     }
 }

@@ -21,6 +21,12 @@ export class HelloWorldModel extends Observable {
     }
 
     var that = this;
+
+    /*this.applozicChat.logout(function(response) {
+      console.log("logout success: " + response);
+    }, function(error) {
+      console.log("logout error: "+ error);
+    });*/
     
     this.applozicChat.login(alUser, function(response) {
         console.log("onLoginSuccess: " + response);

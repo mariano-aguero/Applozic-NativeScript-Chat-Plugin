@@ -14,6 +14,8 @@ var ApplozicChat = (function (_super) {
     };
     ApplozicChat.prototype.launchChatWithGroupId = function (groupId) {
     };
+    ApplozicChat.prototype.logout = function (successCallback, errorCallback) {
+    };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));
 exports.ApplozicChat = ApplozicChat;

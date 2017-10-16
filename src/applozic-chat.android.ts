@@ -16,4 +16,9 @@ export class ApplozicChat extends Common {
     public launchChatWithGroupId(groupId: number) {
         
     }
+
+    public logout(successCallback: any, errorCallback: any) {
+        
+    }
+
 }
