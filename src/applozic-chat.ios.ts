@@ -5,6 +5,7 @@ declare var ALChatLauncher: any;
 declare var ALRegisterUserClientService: any;
 declare var ALPushAssist: any;
 declare var ALUserDefaultsHandler: any;
+declare var ALApplozicSettings: any;
 
 export class ApplozicChat extends Common {
 
@@ -56,4 +57,8 @@ export class ApplozicChat extends Common {
             }
         });
     }
+
+    public showAllRegisteredUsers(showAll: boolean) {
+        ALApplozicSettings.setFilterContactsStatus(showAll);
+    }    
 }

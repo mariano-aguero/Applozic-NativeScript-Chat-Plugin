@@ -48,6 +48,9 @@ var ApplozicChat = (function (_super) {
             }
         });
     };
+    ApplozicChat.prototype.showAllRegisteredUsers = function (showAll) {
+        ALApplozicSettings.setFilterContactsStatus(showAll);
+    };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));
 exports.ApplozicChat = ApplozicChat;

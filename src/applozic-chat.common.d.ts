@@ -7,6 +7,7 @@ export declare class Common extends Observable {
     launchChatWithUserId(userId: any): void;
     launchChatWithGroupId(groupId: number): void;
     logout(successCallback: any, errorCallback: any): void;
+    showAllRegisteredUsers(showAll: boolean): void;
 }
 export declare class Utils {
     static SUCCESS_MSG(): string;

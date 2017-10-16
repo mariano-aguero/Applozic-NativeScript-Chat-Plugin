@@ -16,6 +16,8 @@ var ApplozicChat = (function (_super) {
     };
     ApplozicChat.prototype.logout = function (successCallback, errorCallback) {
     };
+    ApplozicChat.prototype.showAllRegisteredUsers = function (showAll) {
+    };
     return ApplozicChat;
 }(applozic_chat_common_1.Common));
 exports.ApplozicChat = ApplozicChat;

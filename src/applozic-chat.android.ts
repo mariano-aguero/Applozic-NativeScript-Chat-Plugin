@@ -21,4 +21,8 @@ export class ApplozicChat extends Common {
         
     }
 
+    public showAllRegisteredUsers(showAll: boolean) {
+
+    }
+
 }

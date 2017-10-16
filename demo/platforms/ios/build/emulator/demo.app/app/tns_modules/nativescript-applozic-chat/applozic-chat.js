@@ -9,6 +9,7 @@ var ApplozicChat = (function (_super) {
     ApplozicChat.prototype.login = function (user, successCallback, errorCallback) {
         var alUser = ALUser.alloc().init();
         alUser.userId = user.userId;
+        alUser.password = user.password;
         alUser.applicationId = user.applicationId;
         alUser.authenticationTypeId = user.authenticationTypeId;
         alUser.deviceApnsType = user.deviceApnsType;
