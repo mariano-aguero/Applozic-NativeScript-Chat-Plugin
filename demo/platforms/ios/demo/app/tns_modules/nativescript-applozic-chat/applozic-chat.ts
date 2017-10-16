@@ -34,12 +34,13 @@ export class ApplozicChat extends Common {
     public launchChatWithUserId(userId: any) {        
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
         var alPushAssist = ALPushAssist.alloc().init();
-
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);       
     }
         
     public launchChatWithGroupId(groupId: number) {
-                
+        var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
+        var alPushAssist = ALPushAssist.alloc().init();
+        alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(null, groupId, null, alPushAssist.topViewController, null);               
     }
 
     public logout(successCallback: any, errorCallback: any) {

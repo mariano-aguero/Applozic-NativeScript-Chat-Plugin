@@ -30,6 +30,9 @@ var ApplozicChat = (function (_super) {
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);
     };
     ApplozicChat.prototype.launchChatWithGroupId = function (groupId) {
+        var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());
+        var alPushAssist = ALPushAssist.alloc().init();
+        alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(null, groupId, null, alPushAssist.topViewController, null);
     };
     ApplozicChat.prototype.logout = function (successCallback, errorCallback) {
         var alRegisterUserClientService = ALRegisterUserClientService.alloc().init();
