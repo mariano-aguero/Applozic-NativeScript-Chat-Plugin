@@ -56,4 +56,5 @@ applozicChat.logout(function(response) {
       console.log("logout success: " + response);
     }, function(error) {
       console.log("logout error: "+ error);
-    });```
+    });
+```
