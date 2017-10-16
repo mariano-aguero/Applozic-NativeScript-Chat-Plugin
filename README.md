@@ -4,7 +4,11 @@
 ## Installation
 
 ```javascript
-tns plugin add nativescript-applozic-chat
+tns plugin add nativescript-applozic-chat  [NOT PUBLISHED YET]
+```
+Goto src folder and run 
+```
+npm run demo.ios
 ```
 
 ## Usage 
