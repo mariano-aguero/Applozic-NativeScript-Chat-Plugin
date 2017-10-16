@@ -31,7 +31,7 @@ exports.login = function() {
         //that.applozicChat.launchChatWithGroupId(3930445);
       }, function(error) {
         console.log("onLoginFailure: " + error);
-      });2
+      });
 };
 
 exports.logout = function() {
