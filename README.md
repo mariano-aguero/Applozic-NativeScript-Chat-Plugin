@@ -1,40 +1,59 @@
-# Your Plugin Name
+# Applozic NativeScript Chat Plugin
 
-Add your plugin badges here. See [nativescript-urlhandler](https://github.com/hypery2k/nativescript-urlhandler) for example.
-
-Then describe what's the purpose of your plugin. 
-
-In case you develop UI plugin, this is where you can add some screenshots.
-
-## (Optional) Prerequisites / Requirements
-
-Describe the prerequisites that the user need to have installed before using your plugin. See [nativescript-firebase plugin](https://github.com/eddyverbruggen/nativescript-plugin-firebase) for example.
 
 ## Installation
 
-Describe your plugin installation steps. Ideally it would be something like:
-
 ```javascript
-tns plugin add <your-plugin-name>
+tns plugin add nativescript-applozic-chat
 ```
 
 ## Usage 
 
-Describe any usage specifics for your plugin. Give examples for Android, iOS, Angular if needed. See [nativescript-drop-down](https://www.npmjs.com/package/nativescript-drop-down) for example.
+#### Login/Register User
+```js
+    var alUser = {
+            'userId' : userId,   //Replace it with the userId of the logged in user
+            'password' : password,  //Put password here
+            'authenticationTypeId' : 1,
+            'applicationId' : 'applozic-sample-app',  //replace "applozic-sample-app" with Application Key from Applozic Dashboard
+            'deviceApnsType' : 0    //Set 0 for Development and 1 for Distribution (Release)
+        };
 	
-	```javascript
-    Usage code snippets here
-    ```)
+    applozicChat.login(alUser, function(response) {
+        applozicChat.launchChat(); //launch chat
+      }, function(error) {
+        console.log("onLoginFailure: " + error);
+      });
+```
 
-## API
 
-Describe your plugin methods and properties here. See [nativescript-feedback](https://github.com/EddyVerbruggen/nativescript-feedback) for example.
-    
-| Property | Default | Description |
-| --- | --- | --- |
-| some property | property default value | property description, default values, etc.. |
-| another property | property default value | property description, default values, etc.. |
-    
-## License
+#### Launch Chat
 
-Apache License Version 2.0, January 2004
+
+##### Main Chat screen
+
+```
+        applozicChat.launchChat();
+```
+
+##### Launch Chat with a specific User
+
+```
+        applozicChat.launchChatWithUserId(userId);
+```
+
+##### Launch Chat with specific Group 
+
+```
+        applozicChat.launchChatWithGroupId(groupId);
+```
+
+
+#### Logout
+
+```
+applozicChat.logout(function(response) {
+      console.log("logout success: " + response);
+    }, function(error) {
+      console.log("logout error: "+ error);
+    });```
