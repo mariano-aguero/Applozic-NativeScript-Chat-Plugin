@@ -31,6 +31,10 @@ export class Common extends Observable {
     
   }
 
+  public showAllRegisteredUsers(showAll: boolean) {
+
+  }  
+
 }
 
 export class Utils {

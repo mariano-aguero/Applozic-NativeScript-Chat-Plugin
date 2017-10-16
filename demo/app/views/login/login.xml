@@ -1,0 +1,13 @@
+<Page loaded="loaded">
+    <StackLayout orientation="vertical">
+
+        <TextField id="applicationKey" hint="Application" text="applozic-sample-app" autocorrect="false" autocapitalizationType="none" />
+        <TextField id="userId" hint="User Id" autocorrect="false" autocapitalizationType="none" />
+        <TextField id="password" hint="Password" secure="true" />
+
+        <Button text="Start Chat" tap="login" />
+        <Button text="Logout" tap="logout" />
+
+
+    </StackLayout>
+</Page>

@@ -30,6 +30,7 @@ export class HelloWorldModel extends Observable {
     
     this.applozicChat.login(alUser, function(response) {
         console.log("onLoginSuccess: " + response);
+        that.applozicChat.showAllRegisteredUsers(false);
         that.applozicChat.launchChat();
         //that.applozicChat.launchChatWithGroupId(3930445);
       }, function(error) {
