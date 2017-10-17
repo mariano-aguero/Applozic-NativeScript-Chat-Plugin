@@ -6,4 +6,5 @@ export declare class ApplozicChat extends Common {
     launchChatWithGroupId(groupId: number): void;
     logout(successCallback: any, errorCallback: any): void;
     showAllRegisteredUsers(showAll: boolean): void;
+    defaultSettings(): void;
 }

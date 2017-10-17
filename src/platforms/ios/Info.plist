@@ -3,5 +3,15 @@
 <plist version="1.0">
 <dict>
 	<!--Describe the permissions, features or other configurations required by your plugin for iOS.-->
+	<key>NSCameraUsageDescription</key>
+	<string>Allow Camera</string>
+	<key>NSContactsUsageDescription</key>
+	<string>Allow Contacts</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow location sharing!!</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Allow MicroPhone</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Allow Photos</string>
 </dict>
 </plist>
