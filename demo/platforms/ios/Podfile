@@ -1,8 +1,0 @@
-use_frameworks!
-
-target "demo" do
-# Begin Podfile - /Users/devashish/Documents/Github/nativescript-applozic-chat/demo/node_modules/nativescript-applozic-chat/platforms/ios/Podfile 
- pod 'Applozic', '~> 4.2.0' 
- # End Podfile 
-
-end

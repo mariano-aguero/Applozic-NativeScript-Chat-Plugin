@@ -1,7 +1,0 @@
-{
-    "nativescript-applozic-chat": true,
-    "nativescript-theme-core": true,
-    "nativescript-unit-test-runner": true,
-    "tns-core-modules": true,
-    "tns-core-modules-widgets": true
-}
