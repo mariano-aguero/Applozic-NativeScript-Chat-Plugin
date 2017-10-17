@@ -1,6 +1,0 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-require("./bundle-config");
-var application = require("tns-core-modules/application");
-application.start({ moduleName: "views/login/login" });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiYXBwLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsMkJBQXlCO0FBQ3pCLDBEQUE0RDtBQUU1RCxXQUFXLENBQUMsS0FBSyxDQUFDLEVBQUUsVUFBVSxFQUFFLG1CQUFtQixFQUFFLENBQUMsQ0FBQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vYnVuZGxlLWNvbmZpZ1wiO1xuaW1wb3J0ICogYXMgYXBwbGljYXRpb24gZnJvbSAndG5zLWNvcmUtbW9kdWxlcy9hcHBsaWNhdGlvbic7XG4vL2FwcGxpY2F0aW9uLnN0YXJ0KHsgbW9kdWxlTmFtZTogXCJtYWluLXBhZ2VcIiB9KTtcbmFwcGxpY2F0aW9uLnN0YXJ0KHsgbW9kdWxlTmFtZTogXCJ2aWV3cy9sb2dpbi9sb2dpblwiIH0pO1xuXG4iXX0=
