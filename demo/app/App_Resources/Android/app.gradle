@@ -4,6 +4,16 @@
 //dependencies {
 //	compile 'com.android.support:recyclerview-v7:+'
 //}
+dependencies {
+    configurations.all {
+        resolutionStrategy.eachDependency { DependencyResolveDetails details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                details.useVersion '26.0.+'
+            }
+        }
+    }
+}
 
 android {  
   defaultConfig {  
@@ -14,3 +24,4 @@ android {
     additionalParameters "--no-version-vectors"  
   }  
 } 
+

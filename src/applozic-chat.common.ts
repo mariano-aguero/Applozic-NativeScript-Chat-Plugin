@@ -7,11 +7,15 @@ export class Common extends Observable {
 
   constructor() {
     super();
-    this.message = Utils.SUCCESS_MSG();
+    //this.message = Utils.SUCCESS_MSG();
   }
 
   public login(alUser: any, successCallback: any, errorCallback: any) {
     
+  }
+
+  public isLoggedIn(successCallback : any, errorCallback : any){
+
   }
 
   public launchChat() {
@@ -22,7 +26,7 @@ export class Common extends Observable {
 
   }
 
-  public launchChatWithGroupId(groupId: number) {
+  public launchChatWithGroupId(groupId: number, successCallback : any , errorCallback : any) {
     
   }
 

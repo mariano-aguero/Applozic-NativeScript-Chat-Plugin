@@ -22,12 +22,30 @@ exports.login = function() {
       'authenticationTypeId' : 1,
       'applicationId' :  applicationKey,  //replace "applozic-sample-app" with Application Key from Applozic Dashboard
       'deviceApnsType' : 0    //Set 0 for Development and 1 for Distribution (Release)
-    }
+    };
     
     applozicChat.login(alUser, function(response) {
         console.log("onLoginSuccess: " + response);
-        applozicChat.showAllRegisteredUsers(false);
+        //applozicChat.showAllRegisteredUsers(true);
+        applozicChat.registerForPushNotification(function(response){
+          console.log("push success : " + response);
+        }, function(response){
+          console.log("pus failed : " + response);
+        });
         applozicChat.launchChat();
+        // applozicChat.isLoggedIn(function(response){
+        //   if(response === 'true'){
+        //     console.log("2 User is logged in");
+        //   }else if(response === 'false'){
+        //     console.log("2 User is not logged in");
+        //   }
+        // });
+        
+        // applozicChat.launchChatWithGroupId(5531687, function(response){
+        //   console.log("group launch success : " + response);
+        // }, function(response){
+        //   console.log("group launch error : " + response);
+        // });
         //that.applozicChat.launchChatWithGroupId(3930445);
       }, function(error) {
         console.log("onLoginFailure: " + error);

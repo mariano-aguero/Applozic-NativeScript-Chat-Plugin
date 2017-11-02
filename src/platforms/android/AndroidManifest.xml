@@ -38,7 +38,7 @@
 		
 
 		<meta-data android:name="main_folder_name"
-				android:value="@string/chat" /> <!-- Attachment Folder Name -->
+				android:value="@string/app_name" /> <!-- Attachment Folder Name -->
 
 		<!--
 		<string name="default_media_location_folder">YOUR_APP_NAME</string>
