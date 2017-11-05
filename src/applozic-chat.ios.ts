@@ -28,6 +28,10 @@ export class ApplozicChat extends Common {
         });
     }
 
+    public registerForPushNotification(successCallback: any, errorCallback: any){
+        
+    }
+
     public launchChat() {
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
         var alPushAssist = ALPushAssist.alloc().init();

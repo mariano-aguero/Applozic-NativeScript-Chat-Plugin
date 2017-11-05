@@ -14,6 +14,10 @@ export class Common extends Observable {
     
   }
 
+  public registerForPushNotification(successCallback : any, errorCallback : any){
+
+  }
+
   public isLoggedIn(successCallback : any, errorCallback : any){
 
   }
