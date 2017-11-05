@@ -40,7 +40,7 @@ export class ApplozicChat extends Common {
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(userId, null, null, alPushAssist.topViewController, null);       
     }
         
-    public launchChatWithGroupId(groupId: number) {
+    public launchChatWithGroupId(groupId: number, successCallback: any, errorCallback: any) {
         var alChatLauncher = ALChatLauncher.alloc().initWithApplicationId(ALUserDefaultsHandler.getApplicationKey());        
         var alPushAssist = ALPushAssist.alloc().init();
         alChatLauncher.launchIndividualChatWithGroupIdWithDisplayNameAndViewControllerObjectAndWithText(null, groupId, null, alPushAssist.topViewController, null);               
