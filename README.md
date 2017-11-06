@@ -49,7 +49,11 @@ npm run demo.ios
 ##### Launch Chat with specific Group 
 
 ```
-        applozicChat.launchChatWithGroupId(groupId);
+        applozicChat.launchChatWithGroupId(groupId, function(response){
+	  console.log("Success : " + response);
+	}, function(response){
+	  console.log("Error : " + response);
+	});
 ```
 
 
