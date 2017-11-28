@@ -13,6 +13,7 @@ export class ApplozicChat extends Common {
         user.setPassword(alUser.password);
         user.setApplicationId(alUser.applicationId);
         user.setDisplayName(alUser.displayName);
+        user.setImageLink(alUser.imageLink);
         user.setContactNumber(alUser.contactNumber);
         user.setAuthenticationTypeId(new java.lang.Short(alUser.authenticationTypeId));
     
